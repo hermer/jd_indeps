@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #依赖安装
-#0 7-23 * * * jd_indeps.sh
+#0 8 5 5 * jd_indeps.sh
 #new Env('依赖安装');
 #updatedate:20240903
 #
