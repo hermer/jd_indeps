@@ -4,12 +4,10 @@
 #new Env('依赖安装');
 #updatedate:20240903
 #
-
 DIR="$( pwd )"
 dir_root=/ql
 dir_repo=$dir_root/repo
 dir_deps=$dir_root/deps
-
 if [[ $AUTOCFG == 'true' ]];then
     if [[ -z "$(echo "$DIR"|grep 'main')" ]];then
         dir_code=$dir_log/6dylan6_jdpro_jd_sharecode
